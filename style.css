@@ -1,0 +1,43 @@
+html,body{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+}
+.button{
+    padding: 20px;
+    margin: 0px 2px;
+    border: 2px solid black;
+    border-radius: 50%;
+    cursor: pointer;
+    width:75px;
+    height:75px;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+}
+.button:active{
+    transform: scale(0.9);
+    opacity: 0.8;
+}
+.row{
+    margin: 3px 0px;
+}
+.row input{
+    font-size: 21px;
+    margin : 5px;
+    padding: 10px 38px;
+    border : 2px solid black;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+    text-align: right;
+}
+.color1{
+    background-color: #FF9F0A;
+}
+.color2{
+    background-color: #5C5C60;
+}
+.color3{
+    background-color: #2C2C2E;
+}
